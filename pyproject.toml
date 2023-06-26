@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+ 
+[project]
+name = "dsc_api_tools"
+version = "0.0.1"
+authors = [
+  { name="Christine Egan", email="christine.egan@flatironschool.com" },
+]
+description = "A small package of API tools to use with curriculum development APIs (e.g. Canvas, GitHub, etc.)"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+ 
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
